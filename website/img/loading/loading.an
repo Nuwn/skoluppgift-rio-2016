@@ -1,0 +1,51 @@
+
+{
+
+	"HTMLFileName":"loading.html",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"expanded:images/A63CCECD.png":"nil",
+	"symbol_stage":{
+		"dummyStageParentWidth":"56px",
+		"element_${Ellipse}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"element_${Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentWidth":"56px",
+		"element_${A63CCECD}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"true",
+			"timelineColor":"0x50bd82"},
+		"defaultStageParentHeight":"55px",
+		"dummyStageParentHeight":"55px"},
+	"TransitionIdCounter":"45",
+	"CompZoomFactor":"100",
+	"StageZoomFactor":"338",
+	"pixelsPerMs":"0.2",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"pref__general__TimelineGridSize":"0.1s",
+	"usedBOM":"false",
+	"nextElementColorIndex":"4",
+	"stage-Default Timeline_playhead_ms":"990",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"pref__general__TimelineShowGrid":"true",
+	"viewStartY":"0"}

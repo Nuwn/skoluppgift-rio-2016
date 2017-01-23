@@ -1,0 +1,431 @@
+/*jslint */
+/*global AdobeEdge: false, window: false, document: false, console:false, alert: false */
+(function (compId) {
+
+    "use strict";
+    var im='images/',
+        aud='media/',
+        vid='media/',
+        js='js/',
+        fonts = {
+        },
+        opts = {
+            'gAudioPreloadPreference': 'auto',
+            'gVideoPreloadPreference': 'auto'
+        },
+        resources = [
+        ],
+        scripts = [
+        ],
+        symbols = {
+            "stage": {
+                version: "6.0.0",
+                minimumCompatibleVersion: "5.0.0",
+                build: "6.0.0.400",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            id: 'A63CCECD',
+                            type: 'image',
+                            rect: ['1px', '0px', '54px', '55px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"A63CCECD.png",'0px','0px']
+                        }
+                    ],
+                    style: {
+                        '${Stage}': {
+                            isStage: true,
+                            rect: [undefined, undefined, '56px', '55px'],
+                            overflow: 'hidden',
+                            fill: ["rgba(255,255,255,1)"]
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 1000,
+                    autoPlay: true,
+                    labels: {
+                        "loop": 0
+                    },
+                    data: [
+                        [
+                            "eid44",
+                            "left",
+                            1000,
+                            0,
+                            "linear",
+                            "${A63CCECD}",
+                            '1px',
+                            '1px'
+                        ],
+                        [
+                            "eid8",
+                            "rotateZ",
+                            0,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '0deg',
+                            '10deg'
+                        ],
+                        [
+                            "eid9",
+                            "rotateZ",
+                            28,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '10deg',
+                            '20deg'
+                        ],
+                        [
+                            "eid10",
+                            "rotateZ",
+                            56,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '20deg',
+                            '30deg'
+                        ],
+                        [
+                            "eid11",
+                            "rotateZ",
+                            83,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '30deg',
+                            '40deg'
+                        ],
+                        [
+                            "eid12",
+                            "rotateZ",
+                            111,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '40deg',
+                            '50deg'
+                        ],
+                        [
+                            "eid13",
+                            "rotateZ",
+                            139,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '50deg',
+                            '60deg'
+                        ],
+                        [
+                            "eid14",
+                            "rotateZ",
+                            167,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '60deg',
+                            '70deg'
+                        ],
+                        [
+                            "eid15",
+                            "rotateZ",
+                            194,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '70deg',
+                            '80deg'
+                        ],
+                        [
+                            "eid16",
+                            "rotateZ",
+                            222,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '80deg',
+                            '90deg'
+                        ],
+                        [
+                            "eid17",
+                            "rotateZ",
+                            250,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '90deg',
+                            '100deg'
+                        ],
+                        [
+                            "eid18",
+                            "rotateZ",
+                            278,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '100deg',
+                            '110deg'
+                        ],
+                        [
+                            "eid19",
+                            "rotateZ",
+                            306,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '110deg',
+                            '120deg'
+                        ],
+                        [
+                            "eid20",
+                            "rotateZ",
+                            333,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '120deg',
+                            '130deg'
+                        ],
+                        [
+                            "eid21",
+                            "rotateZ",
+                            361,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '130deg',
+                            '140deg'
+                        ],
+                        [
+                            "eid22",
+                            "rotateZ",
+                            389,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '140deg',
+                            '150deg'
+                        ],
+                        [
+                            "eid23",
+                            "rotateZ",
+                            417,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '150deg',
+                            '160deg'
+                        ],
+                        [
+                            "eid24",
+                            "rotateZ",
+                            444,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '160deg',
+                            '170deg'
+                        ],
+                        [
+                            "eid25",
+                            "rotateZ",
+                            472,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '170deg',
+                            '180deg'
+                        ],
+                        [
+                            "eid26",
+                            "rotateZ",
+                            500,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '180deg',
+                            '190deg'
+                        ],
+                        [
+                            "eid27",
+                            "rotateZ",
+                            528,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '190deg',
+                            '200deg'
+                        ],
+                        [
+                            "eid28",
+                            "rotateZ",
+                            556,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '200deg',
+                            '210deg'
+                        ],
+                        [
+                            "eid29",
+                            "rotateZ",
+                            583,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '210deg',
+                            '220deg'
+                        ],
+                        [
+                            "eid30",
+                            "rotateZ",
+                            611,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '220deg',
+                            '230deg'
+                        ],
+                        [
+                            "eid31",
+                            "rotateZ",
+                            639,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '230deg',
+                            '240deg'
+                        ],
+                        [
+                            "eid32",
+                            "rotateZ",
+                            667,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '240deg',
+                            '250deg'
+                        ],
+                        [
+                            "eid33",
+                            "rotateZ",
+                            694,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '250deg',
+                            '260deg'
+                        ],
+                        [
+                            "eid34",
+                            "rotateZ",
+                            722,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '260deg',
+                            '270deg'
+                        ],
+                        [
+                            "eid35",
+                            "rotateZ",
+                            750,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '270deg',
+                            '280deg'
+                        ],
+                        [
+                            "eid36",
+                            "rotateZ",
+                            778,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '280deg',
+                            '290deg'
+                        ],
+                        [
+                            "eid37",
+                            "rotateZ",
+                            806,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '290deg',
+                            '300deg'
+                        ],
+                        [
+                            "eid38",
+                            "rotateZ",
+                            833,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '300deg',
+                            '310deg'
+                        ],
+                        [
+                            "eid39",
+                            "rotateZ",
+                            861,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '310deg',
+                            '320deg'
+                        ],
+                        [
+                            "eid40",
+                            "rotateZ",
+                            889,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '320deg',
+                            '330deg'
+                        ],
+                        [
+                            "eid41",
+                            "rotateZ",
+                            917,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '330deg',
+                            '340deg'
+                        ],
+                        [
+                            "eid42",
+                            "rotateZ",
+                            944,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '340deg',
+                            '350deg'
+                        ],
+                        [
+                            "eid43",
+                            "rotateZ",
+                            972,
+                            28,
+                            "linear",
+                            "${A63CCECD}",
+                            '350deg',
+                            '360deg'
+                        ]
+                    ]
+                }
+            }
+        };
+
+    AdobeEdge.registerCompositionDefn(compId, symbols, fonts, scripts, resources, opts);
+
+    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("loading_edgeActions.js");
+})("EDGE-1030673281");

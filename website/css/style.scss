@@ -1,0 +1,317 @@
+@import 'apiStyles'; 
+
+
+body{
+    
+}
+p{
+    
+}
+h1{
+    
+}
+.center{
+    
+}
+#Top-Nav a {
+    text-decoration: none;
+    font-family: fantasy;
+    color: limegreen;
+    font-size: 24px;
+    
+}
+
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    
+    
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+    
+    #Top-Nav{
+        display: flex;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        
+        a {
+        text-decoration: none;
+        font-family: fantasy;
+        color: limegreen;
+        font-size: 24px;
+    
+        }
+    }
+    #banner {
+        display: flex;
+        box-shadow: 0px 0px 1px 0px;
+        background: url(../img/rio2016_1920_150.jpg);
+        height: 150px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        a{
+           
+        }
+        #logo{
+            width: 300px;
+            height: 152px;
+        }
+    }
+    
+    #Bot-Nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        max-width: 800px;
+        width: 100%;
+        margin-top: 10px;
+        
+        img{
+            height: 50px;
+        }
+    }
+    
+}
+#container{
+    display: flex;
+    min-height: 630px;
+    flex-direction: column;
+    width: 100%;
+    
+    align-items: center;
+    
+    #startImg {
+        display: flex;
+        background: url(../img/rio2016_1920_630.jpg);
+        width: 100%;
+        height: 630px;
+        z-index: 50;
+        
+        
+        @media screen and (min-width: 500px){
+            justify-content: center;
+            align-items: center;
+        }
+    
+        #startLogo{
+            display: flex;
+            background: url(../img/rio-logo-2016.png) no-repeat;
+            background-size: 100%;
+            width:100%;
+            height: 70vh;
+            justify-content: center;
+            align-items: center;
+            
+                @media screen and (min-width: 500px){
+                    width: 800px;
+                    height: 500px; 
+                }
+        }
+    }
+    
+    
+    
+    #main {
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top:100px;
+        margin-bottom: 200px;
+        justify-content: center;
+        
+        #content{
+            display: flex;
+            width: auto;
+            align-items: center; 
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 13px;
+        }
+        h2 {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        h3{
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        pre {
+            width: 100%;
+            max-width: 800px;
+            white-space: pre-wrap;
+            font-family: sans-serif;
+            line-height: 20px;
+            
+            
+            
+        }
+        img {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+        
+    }
+}
+
+#contactForm{
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    
+    p{
+        padding-bottom: 20px;
+        max-width: 600px;
+        font-size: 1.3em;
+        color: darkgreen;
+    }
+
+    form {
+        display: block;
+        width: inherit;
+        max-width: 700px;
+        
+        
+        p{
+         font-size: 1.2em;  
+         padding-bottom: 10px;
+        }
+        
+            input{
+                width:100%;
+                height:30px;
+            }
+            textarea{
+                width: 100%-0.2;
+                min-height: 200px;
+            }
+        
+        #formSpanName {
+            display: none;
+            color: red;
+        }
+        #formSpanEmail{
+            display: none;
+            color: red;
+        }
+        #formSpanMsg{
+            display: none;
+            color: red;
+        }
+        
+        #submit{
+            width: 100px;
+        }
+    }
+}
+
+
+#footer{
+    display: flex;
+    background: url(../img/rio2016_1920_300.jpg);
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}    
+#footerContainer {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+#footerTextHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    #footerlinks{
+    display: flex;
+    max-height: 240px;
+    margin-left:100px;
+    margin-right: 100px;
+    
+    a{
+        font-size: 13px; 
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #522828;
+        
+    }
+    ul{
+        display: flex;
+        margin-right: 20px;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    li {
+        
+    }
+    }
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+     
+#copyright{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid white;
+    align-items: center;
+    margin-top: 50px;
+    height: 50px;
+        
+    p{
+        font-size: 13px; 
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #522828;
+    }
+}
+
+#flameholder{
+    display: flex;
+    flex-direction: column;
+    
+    iframe{
+        height: 165px;
+        width: 103px;
+    }
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+    
+
+#loading {
+    display: flex;
+    justify-content: center;
+    height: 56px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 9999;
+    top: 30%;
+       
+    iframe {
+        width: 56px;
+        height: 56px;
+    }
+   }

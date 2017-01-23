@@ -1,0 +1,359 @@
+/* line 1, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+#youtubeContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  /* line 9, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+  #youtubeContainer .player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 170px; }
+    @media screen and (min-width: 300px) {
+      /* line 9, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+      #youtubeContainer .player {
+        width: 100%;
+        height: 230px; } }
+    @media screen and (min-width: 400px) {
+      /* line 9, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+      #youtubeContainer .player {
+        width: 100%;
+        height: 285px; } }
+    @media screen and (min-width: 500px) {
+      /* line 9, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+      #youtubeContainer .player {
+        width: 500px;
+        height: 300px; } }
+    @media screen and (min-width: 900px) {
+      /* line 9, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+      #youtubeContainer .player {
+        width: 900px;
+        height: 500px; } }
+    @media screen and (min-width: 1200px) {
+      /* line 9, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+      #youtubeContainer .player {
+        width: 1200px;
+        height: 700px; } }
+
+/* line 40, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+#youtubeInfo {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 150px;
+  border: 1px solid #DDD; }
+  /* line 47, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+  #youtubeInfo div {
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold; }
+  @media screen and (min-width: 300px) {
+    /* line 40, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+    #youtubeInfo {
+      width: 100%;
+      height: 150px; } }
+  @media screen and (min-width: 400px) {
+    /* line 40, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+    #youtubeInfo {
+      width: 100%;
+      height: 150px; } }
+  @media screen and (min-width: 500px) {
+    /* line 40, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+    #youtubeInfo {
+      width: 500px;
+      height: 150px; } }
+  @media screen and (min-width: 900px) {
+    /* line 40, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+    #youtubeInfo {
+      width: 900px;
+      height: 150px; } }
+  @media screen and (min-width: 1200px) {
+    /* line 40, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+    #youtubeInfo {
+      width: 1200px;
+      height: 150px; } }
+
+/* line 75, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+.twitter-grid {
+  color: white; }
+
+/* line 79, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+#Googlefeed {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+/* line 86, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/_apiStyles.scss */
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+/* line 16, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+#Top-Nav a {
+  text-decoration: none;
+  font-family: fantasy;
+  color: limegreen;
+  font-size: 24px; }
+
+/* line 25, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  width: 100%; }
+
+/* line 34, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+#header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center; }
+  /* line 41, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+  #header #Top-Nav {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; }
+    /* line 48, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #header #Top-Nav a {
+      text-decoration: none;
+      font-family: fantasy;
+      color: limegreen;
+      font-size: 24px; }
+  /* line 56, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+  #header #banner {
+    display: flex;
+    box-shadow: 0px 0px 1px 0px;
+    background: url(../img/rio2016_1920_150.jpg);
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center; }
+    /* line 67, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #header #banner #logo {
+      width: 300px;
+      height: 152px; }
+  /* line 73, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+  #header #Bot-Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 10px; }
+    /* line 82, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #header #Bot-Nav img {
+      height: 50px; }
+
+/* line 88, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+#container {
+  display: flex;
+  min-height: 630px;
+  flex-direction: column;
+  width: 100%;
+  align-items: center; }
+  /* line 96, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+  #container #startImg {
+    display: flex;
+    background: url(../img/rio2016_1920_630.jpg);
+    width: 100%;
+    height: 630px;
+    z-index: 50; }
+    @media screen and (min-width: 500px) {
+      /* line 96, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+      #container #startImg {
+        justify-content: center;
+        align-items: center; } }
+    /* line 109, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #container #startImg #startLogo {
+      display: flex;
+      background: url(../img/rio-logo-2016.png) no-repeat;
+      background-size: 100%;
+      width: 100%;
+      height: 70vh;
+      justify-content: center;
+      align-items: center; }
+      @media screen and (min-width: 500px) {
+        /* line 109, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+        #container #startImg #startLogo {
+          width: 800px;
+          height: 500px; } }
+  /* line 127, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+  #container #main {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    justify-content: center; }
+    /* line 137, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #container #main #content {
+      display: flex;
+      width: auto;
+      align-items: center;
+      flex-direction: column; }
+    /* line 143, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #container #main h1 {
+      font-size: 13px; }
+    /* line 146, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #container #main h2 {
+      font-size: 1.1em;
+      font-weight: bold; }
+    /* line 150, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #container #main h3 {
+      font-size: 0.9em;
+      font-weight: bold; }
+    /* line 154, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #container #main pre {
+      width: 100%;
+      max-width: 800px;
+      white-space: pre-wrap;
+      font-family: sans-serif;
+      line-height: 20px; }
+    /* line 164, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #container #main img {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+
+/* line 173, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+#contactForm {
+  display: flex;
+  width: 800px;
+  justify-content: center; }
+  /* line 178, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+  #contactForm p {
+    padding-bottom: 20px;
+    max-width: 600px;
+    font-size: 1.3em;
+    color: darkgreen; }
+  /* line 185, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+  #contactForm form {
+    display: block;
+    width: inherit;
+    max-width: 700px; }
+    /* line 191, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #contactForm form p {
+      font-size: 1.2em;
+      padding-bottom: 10px; }
+    /* line 196, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #contactForm form input {
+      width: 100%;
+      height: 30px; }
+    /* line 200, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #contactForm form textarea {
+      width: 99.8%;
+      min-height: 200px; }
+    /* line 205, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #contactForm form #formSpanName {
+      display: none;
+      color: red; }
+    /* line 209, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #contactForm form #formSpanEmail {
+      display: none;
+      color: red; }
+    /* line 213, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #contactForm form #formSpanMsg {
+      display: none;
+      color: red; }
+    /* line 218, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #contactForm form #submit {
+      width: 100px; }
+
+/* line 225, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+#footer {
+  display: flex;
+  background: url(../img/rio2016_1920_300.jpg);
+  justify-content: center;
+  height: 300px;
+  width: 100%; }
+
+/* line 232, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+#footerContainer {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em; }
+
+/* line 240, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+#footerTextHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  /* line 245, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+  #footerTextHolder #footerlinks {
+    display: flex;
+    max-height: 240px;
+    margin-left: 100px;
+    margin-right: 100px; }
+    /* line 251, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #footerTextHolder #footerlinks a {
+      font-size: 13px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #522828; }
+    /* line 258, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #footerTextHolder #footerlinks ul {
+      display: flex;
+      margin-right: 20px;
+      flex-direction: column;
+      padding-left: 10px; }
+  @media screen and (max-width: 800px) {
+    /* line 240, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #footerTextHolder {
+      display: none; } }
+
+/* line 273, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+#copyright {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid white;
+  align-items: center;
+  margin-top: 50px;
+  height: 50px; }
+  /* line 281, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+  #copyright p {
+    font-size: 13px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #522828; }
+
+/* line 289, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+#flameholder {
+  display: flex;
+  flex-direction: column; }
+  /* line 293, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+  #flameholder iframe {
+    height: 165px;
+    width: 103px; }
+  @media screen and (max-width: 800px) {
+    /* line 289, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+    #flameholder {
+      display: none; } }
+
+/* line 303, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+#loading {
+  display: flex;
+  justify-content: center;
+  height: 56px;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 9999;
+  top: 30%; }
+  /* line 313, C:/Users/Patric-k/OneDrive/JS/Rio2016/css/style.scss */
+  #loading iframe {
+    width: 56px;
+    height: 56px; }
+
+/*# sourceMappingURL=style.css.map */
